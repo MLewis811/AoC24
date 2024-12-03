@@ -1,8 +1,8 @@
 //
-//  Day1.swift
+//  Day2.swift
 //  AoC24
 //
-//  Created by Mike Lewis on 11/25/24.
+//  Created by Mike Lewis on 12/2/24.
 //
 
 import Foundation
