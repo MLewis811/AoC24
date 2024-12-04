@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var dayNum = 4
+    @State private var dayNum = 5
     @State private var inputFileNum = 0
     @State private var fileName = "sampleInput.txt"
     @State private var outputVal = ""

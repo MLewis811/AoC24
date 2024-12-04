@@ -1,13 +1,13 @@
 //
-//  DayTemplate.swift
+//  Day5.swift
 //  AoC24
 //
-//  Created by Mike Lewis on 12/3/24.
+//  Created by Mike Lewis on 12/4/24.
 //
 
 import Foundation
 
-func DayXXXX(file: String, part: Int) -> String {
+func Day5(file: String, part: Int) -> String {
     let lines = loadStringsFromFile(file)
     
     var tot = 0
