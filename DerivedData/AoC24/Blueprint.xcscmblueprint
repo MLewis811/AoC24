@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F95ED61078A70C9D87CE8D3362F55442086CBE17",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F95ED61078A70C9D87CE8D3362F55442086CBE17" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "76AEF475-84BB-4942-A8EC-09C9140CE68F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F95ED61078A70C9D87CE8D3362F55442086CBE17" : "AoC24\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AoC24",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AoC24.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MLewis811\/AoC24.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F95ED61078A70C9D87CE8D3362F55442086CBE17"
+    }
+  ]
+}

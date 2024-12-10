@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'AoC24' in project 'AoC24' (no dependencies)
+Target 'AoC24' in project 'AoC24' (no dependencies)

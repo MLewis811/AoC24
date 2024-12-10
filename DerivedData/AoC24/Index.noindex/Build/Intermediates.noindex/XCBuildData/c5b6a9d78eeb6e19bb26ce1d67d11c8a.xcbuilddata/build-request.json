@@ -1,0 +1,48 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "fe41a7e787d73f37cd081c567f593637ff53249c6ded01d9289815683d5aeda9"
+    }
+  ],
+  "containerPath" : "/Users/mikelewis/Developer/AoC24/AoC24.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/mikelewis/Developer/AoC24/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Build/Products",
+      "pchPath" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
