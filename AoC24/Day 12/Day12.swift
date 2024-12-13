@@ -25,11 +25,19 @@ func Day12(file: String, part: Int) -> String {
         case vertical
     }
     
+    enum CardinalDirection {
+        case north
+        case south
+        case east
+        case west
+    }
+    
     struct Side: Hashable {
         var start: Coordinate
         var end: Coordinate
         
         let direction: Direction
+        let inside: CardinalDirection
     }
     
     struct Region: Hashable {
@@ -50,16 +58,6 @@ func Day12(file: String, part: Int) -> String {
         }
         
         var perimeter: Int {
-//            var perim = 0
-//            for coordinate in coordinates {
-//                let nbors = neighbors(coordinate)
-//                for nbor in nbors {
-//                    if !coordinates.contains(nbor) {
-//                        perim += 1
-//                    }
-//                }
-//            }
-            
             return fenceCoords.count
         }
         
@@ -122,29 +120,30 @@ func Day12(file: String, part: Int) -> String {
                 let start = Coordinate(x: fenceCoord.x - 1, y: fenceCoord.y)
                 let end = Coordinate(x: fenceCoord.x + 1, y: fenceCoord.y)
                 let thisDir: Direction = .horizontal
+                let insideDir: CardinalDirection = coordinates.contains(Coordinate(x: (fenceCoord.x - 1) / 2, y: (fenceCoord.y - 2) / 2)) ? .north : .south
                 
 //                let sameDirSides = sideSet.filter { $0.direction == thisDir }
 //                print("Looking at \(fenceCoord.x), \(fenceCoord.y): \(start.x), \(start.y) -> \(end.x), \(end.y)")
                 
                 if sideSet.filter({ $0.direction == thisDir }).isEmpty {
 //                    print("Adding \(thisDir == .vertical ? "vert" : "hor") \(start.x), \(start.y) -> \(end.x), \(end.y)")
-                    sideSet.append(Side(start: start, end: end, direction: thisDir))
+                    sideSet.append( Side( start: start, end: end, direction: thisDir, inside: insideDir ) )
                 } else {
 
                     var addedToExistingSide = false
                     for i in 0..<sideSet.count {
-                        if sideSet[i].direction == thisDir && sideSet[i].start == end {
+                        if sideSet[i].direction == thisDir && sideSet[i].start == end && sideSet[i].inside == insideDir {
 //                            print("Joining \(start.x), \(start.y) -> \(end.x), \(end.y) with existing side \(sideSet[i].start.x), \(sideSet[i].start.y) -> \(sideSet[i].end.x), \(sideSet[i].end.y)")
                             sideSet[i].start = start
                             addedToExistingSide = true
-                        } else if sideSet[i].direction == thisDir && sideSet[i].end == start {
+                        } else if sideSet[i].direction == thisDir && sideSet[i].end == start && sideSet[i].inside == insideDir {
                             sideSet[i].end = end
                             addedToExistingSide = true
                         }
                     }
                     
                     if !addedToExistingSide {
-                        sideSet.append(Side(start: start, end: end, direction: thisDir))
+                        sideSet.append( Side(start: start, end: end, direction: thisDir, inside: insideDir) )
                     }
                 }
                 
@@ -154,29 +153,30 @@ func Day12(file: String, part: Int) -> String {
                 let start = Coordinate(x: fenceCoord.x, y: fenceCoord.y - 1)
                 let end = Coordinate(x: fenceCoord.x, y: fenceCoord.y + 1)
                 let thisDir: Direction = .vertical
+                let insideDir: CardinalDirection = coordinates.contains(Coordinate(x: (fenceCoord.x - 2) / 2, y: (fenceCoord.y - 1) / 2)) ? .west : .east
                 
 //                let sameDirSides = sideSet.filter { $0.direction == thisDir }
 //                print("Looking at \(fenceCoord.x), \(fenceCoord.y): \(start.x), \(start.y) -> \(end.x), \(end.y)")
                 
                 if sideSet.filter({ $0.direction == thisDir }).isEmpty {
 //                    print("Adding \(thisDir == .vertical ? "vert" : "hor") \(start.x), \(start.y) -> \(end.x), \(end.y)")
-                    sideSet.append(Side(start: start, end: end, direction: thisDir))
+                    sideSet.append(Side(start: start, end: end, direction: thisDir, inside: insideDir))
                 } else {
 
                     var addedToExistingSide = false
                     for i in 0..<sideSet.count {
-                        if sideSet[i].direction == thisDir && sideSet[i].start == end {
+                        if sideSet[i].direction == thisDir && sideSet[i].start == end && sideSet[i].inside == insideDir {
 //                            print("Joining \(start.x), \(start.y) -> \(end.x), \(end.y) with existing side \(sideSet[i].start.x), \(sideSet[i].start.y) -> \(sideSet[i].end.x), \(sideSet[i].end.y)")
                             sideSet[i].start = start
                             addedToExistingSide = true
-                        } else if sideSet[i].direction == thisDir && sideSet[i].end == start {
+                        } else if sideSet[i].direction == thisDir && sideSet[i].end == start && sideSet[i].inside == insideDir {
                             sideSet[i].end = end
                             addedToExistingSide = true
                         }
                     }
                     
                     if !addedToExistingSide {
-                        sideSet.append(Side(start: start, end: end, direction: thisDir))
+                        sideSet.append(Side(start: start, end: end, direction: thisDir, inside: insideDir))
                     }
                 }
                 
@@ -234,7 +234,7 @@ func Day12(file: String, part: Int) -> String {
         print("*** Plant \(plant) ***")
         for region in regionList {
             //            print("Area=\(region.area), Perim=\(region.perimeter) -- \(region.fenceCoords.count)")
-            print("\(region.sides.count) sides")
+            print("area = \(region.area) - \(region.sides.count) sides")
 //            for side in region.sides {
 //                print("\(side.start.x),\(side.start.y) -> \(side.end.x),\(side.end.y)")
 //            }

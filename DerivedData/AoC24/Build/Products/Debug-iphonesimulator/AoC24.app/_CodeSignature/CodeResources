@@ -6,11 +6,11 @@
 	<dict>
 		<key>AoC24.debug.dylib</key>
 		<data>
-		ojJtDZlbUbtU7Rohcji2t0FsbeQ=
+		cffcAEZCtLcNBEu09n5TR6/dU8g=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		p2E9c5vC3geDW2zK389QvUYdPTs=
+		AhDjKXBn8A7pNi1L2UuT1FKaLEM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -19,6 +19,30 @@
 		<key>__preview.dylib</key>
 		<data>
 		+u/auNzqFW314K6+aZptlXmyklI=
+		</data>
+		<key>day10input.txt</key>
+		<data>
+		qqRx+cu0tge8fV5FFZK9IqjZwms=
+		</data>
+		<key>day10sampleInput.txt</key>
+		<data>
+		BmPk6mxm2neNxERrjuDhZzHNsMw=
+		</data>
+		<key>day11input.txt</key>
+		<data>
+		kQRVPWcervB+MOqRjpEzRIKJuns=
+		</data>
+		<key>day11sampleInput.txt</key>
+		<data>
+		8puPUqT3aIInAgj/inWO8lGXnD4=
+		</data>
+		<key>day12input.txt</key>
+		<data>
+		Rc/MrUm/wSBAHC9yxMBNB/j3P60=
+		</data>
+		<key>day12sampleInput.txt</key>
+		<data>
+		GD64CEnCXyebpeYhE51YFgQt1H4=
 		</data>
 		<key>day1input.txt</key>
 		<data>
@@ -99,7 +123,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pXewLcBLTCTkv7eK/g06DJDBqxi5wEfhfZHGl8Xm4g0=
+			a0Dt60r68aAmXyLVo+lKO/g5Hrp0ERYAJPrJcwxu1nM=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
@@ -107,6 +131,48 @@
 			<key>hash2</key>
 			<data>
 			P0bN2ilPbsFGpxI0bV8t2t3D55f0kBB7opxBYR6znec=
+			</data>
+		</dict>
+		<key>day10input.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r9Yl65YYcnwU2KbkgO/ezs0IjUj1I+PHHKP1hcgC/AA=
+			</data>
+		</dict>
+		<key>day10sampleInput.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RoCNlygJ+emCBBK+WPXsISAmZP4nu6IYQATEbmbvVkk=
+			</data>
+		</dict>
+		<key>day11input.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rHsmgms3y2XF9kJhTJXVkPJrp3ya4midLrObaOlA8d0=
+			</data>
+		</dict>
+		<key>day11sampleInput.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kFfMO0+fU5FwbFXBZ+27JzdG+vbKsMVFc1GOrMBvbJU=
+			</data>
+		</dict>
+		<key>day12input.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OuZOK43ORiF5aqL/Fmy2Sd5ynLvXuTdZwSdj15tEnyk=
+			</data>
+		</dict>
+		<key>day12sampleInput.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qCPMC5L8Fsfw4eP1wz9OlFTxE+UQjwYYwC9sU+nB4vk=
 			</data>
 		</dict>
 		<key>day1input.txt</key>
