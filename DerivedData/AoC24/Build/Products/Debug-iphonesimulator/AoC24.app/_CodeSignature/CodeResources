@@ -6,11 +6,11 @@
 	<dict>
 		<key>AoC24.debug.dylib</key>
 		<data>
-		cffcAEZCtLcNBEu09n5TR6/dU8g=
+		CEIxiS32m+EuDQ3MCAUOwL2gFeY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AhDjKXBn8A7pNi1L2UuT1FKaLEM=
+		/T5U7Rf27hI9+4x74GgJDwa3ttM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>__preview.dylib</key>
 		<data>
-		+u/auNzqFW314K6+aZptlXmyklI=
+		munKkITetarZgx4S0dHTKiolGdk=
 		</data>
 		<key>day10input.txt</key>
 		<data>
@@ -43,6 +43,22 @@
 		<key>day12sampleInput.txt</key>
 		<data>
 		GD64CEnCXyebpeYhE51YFgQt1H4=
+		</data>
+		<key>day13input.txt</key>
+		<data>
+		ApnHwNwWcLEigTw2gdlguZYnE9s=
+		</data>
+		<key>day13sampleInput.txt</key>
+		<data>
+		JWYvTlkCJg/78T0hfu66wi2KLC8=
+		</data>
+		<key>day14input.txt</key>
+		<data>
+		ApnHwNwWcLEigTw2gdlguZYnE9s=
+		</data>
+		<key>day14sampleInput.txt</key>
+		<data>
+		JWYvTlkCJg/78T0hfu66wi2KLC8=
 		</data>
 		<key>day1input.txt</key>
 		<data>
@@ -123,14 +139,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a0Dt60r68aAmXyLVo+lKO/g5Hrp0ERYAJPrJcwxu1nM=
+			9p9L5FIM11zbN05iyiLuNwsV8b1RLaF//JrDKi9KpJc=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P0bN2ilPbsFGpxI0bV8t2t3D55f0kBB7opxBYR6znec=
+			atPJvLmwO1KpeFxwGH044jS6WEamKe6huZ7WeJh1vg4=
 			</data>
 		</dict>
 		<key>day10input.txt</key>
@@ -173,6 +189,34 @@
 			<key>hash2</key>
 			<data>
 			qCPMC5L8Fsfw4eP1wz9OlFTxE+UQjwYYwC9sU+nB4vk=
+			</data>
+		</dict>
+		<key>day13input.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SMHqljUsjs4aYTmST+SFAtuUf4ZU9G7llf3r8ybm1vc=
+			</data>
+		</dict>
+		<key>day13sampleInput.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JtV3LkZVFcO5tlzbjCJ4nxuAP1E/PSpdy3jrZKT8P4s=
+			</data>
+		</dict>
+		<key>day14input.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SMHqljUsjs4aYTmST+SFAtuUf4ZU9G7llf3r8ybm1vc=
+			</data>
+		</dict>
+		<key>day14sampleInput.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JtV3LkZVFcO5tlzbjCJ4nxuAP1E/PSpdy3jrZKT8P4s=
 			</data>
 		</dict>
 		<key>day1input.txt</key>

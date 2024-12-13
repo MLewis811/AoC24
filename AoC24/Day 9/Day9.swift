@@ -19,7 +19,7 @@ func Day9(file: String, part: Int) -> String {
     
     var startFileNum = 0
     var endFileNum = maxFileNum
-    var startFileCount = 0
+//    var startFileCount = 0
     var endFileCount = 0
     var startLinePos = 0
     var endLinePos = line.count - 1
@@ -29,7 +29,7 @@ func Day9(file: String, part: Int) -> String {
     var filledStr = ""
     var condensedStr = ""
     
-    var currLastFileCount = 0
+//    var currLastFileCount = 0
     
     var fileLength: [Int:Int] = [:]
     

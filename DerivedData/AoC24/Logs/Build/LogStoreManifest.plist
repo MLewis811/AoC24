@@ -6,6 +6,636 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
+		<key>01E0CB47-7A54-46D0-BAAE-DB97C2ECE994</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>01E0CB47-7A54-46D0-BAAE-DB97C2ECE994.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755814229.69919896</real>
+			<key>timeStoppedRecording</key>
+			<real>755814231.23404598</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>01E0CB47-7A54-46D0-BAAE-DB97C2ECE994</string>
+		</dict>
+		<key>0A3DE5F9-8FC2-4988-9AEB-25DF8ADDC8BC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0A3DE5F9-8FC2-4988-9AEB-25DF8ADDC8BC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755814793.21797895</real>
+			<key>timeStoppedRecording</key>
+			<real>755814794.60006106</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>0A3DE5F9-8FC2-4988-9AEB-25DF8ADDC8BC</string>
+		</dict>
+		<key>1542FF55-7DE9-44D8-B04B-61EF5EE6A43C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1542FF55-7DE9-44D8-B04B-61EF5EE6A43C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755803126.437186</real>
+			<key>timeStoppedRecording</key>
+			<real>755803128.41595197</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>1542FF55-7DE9-44D8-B04B-61EF5EE6A43C</string>
+		</dict>
+		<key>15886981-2D05-48BF-B720-1868E3E2E29A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>15886981-2D05-48BF-B720-1868E3E2E29A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755804838.43500304</real>
+			<key>timeStoppedRecording</key>
+			<real>755804839.86772001</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>15886981-2D05-48BF-B720-1868E3E2E29A</string>
+		</dict>
+		<key>15C95E51-3ABB-438F-8584-D301343E32B4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>15C95E51-3ABB-438F-8584-D301343E32B4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755803602.35119295</real>
+			<key>timeStoppedRecording</key>
+			<real>755803603.79227996</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>15C95E51-3ABB-438F-8584-D301343E32B4</string>
+		</dict>
+		<key>1A554E85-7CAC-4821-88EF-3079751F8F2B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1A554E85-7CAC-4821-88EF-3079751F8F2B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755814814.81913996</real>
+			<key>timeStoppedRecording</key>
+			<real>755814816.21763396</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>1A554E85-7CAC-4821-88EF-3079751F8F2B</string>
+		</dict>
+		<key>1F0A3CDF-323F-4305-A8CD-06A218BF57D7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1F0A3CDF-323F-4305-A8CD-06A218BF57D7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755815567.67015302</real>
+			<key>timeStoppedRecording</key>
+			<real>755815568.45882404</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>1F0A3CDF-323F-4305-A8CD-06A218BF57D7</string>
+		</dict>
+		<key>1F85859E-A9F2-4F77-BCBE-B68D42746F24</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1F85859E-A9F2-4F77-BCBE-B68D42746F24.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755814552.44671905</real>
+			<key>timeStoppedRecording</key>
+			<real>755814554.04257703</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>1F85859E-A9F2-4F77-BCBE-B68D42746F24</string>
+		</dict>
+		<key>245593F2-EE9B-44D6-96B6-E134F1C2E558</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>245593F2-EE9B-44D6-96B6-E134F1C2E558.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755813927.81361198</real>
+			<key>timeStoppedRecording</key>
+			<real>755813929.62932706</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>245593F2-EE9B-44D6-96B6-E134F1C2E558</string>
+		</dict>
+		<key>26FBE439-9066-4519-9093-A40560852FAD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>26FBE439-9066-4519-9093-A40560852FAD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755803732.04336298</real>
+			<key>timeStoppedRecording</key>
+			<real>755803733.75798595</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>26FBE439-9066-4519-9093-A40560852FAD</string>
+		</dict>
+		<key>274DFF7C-3426-490B-802C-11AFE0CF1439</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>274DFF7C-3426-490B-802C-11AFE0CF1439.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755813982.66120195</real>
+			<key>timeStoppedRecording</key>
+			<real>755813984.24244797</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>274DFF7C-3426-490B-802C-11AFE0CF1439</string>
+		</dict>
+		<key>2C587681-0DF2-48CE-9CAF-62D8E950010E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2C587681-0DF2-48CE-9CAF-62D8E950010E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755804923.77635098</real>
+			<key>timeStoppedRecording</key>
+			<real>755804925.21030104</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>2C587681-0DF2-48CE-9CAF-62D8E950010E</string>
+		</dict>
+		<key>3094DB3E-DABD-4A7E-889E-D590229EAA8C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3094DB3E-DABD-4A7E-889E-D590229EAA8C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755811825.90033305</real>
+			<key>timeStoppedRecording</key>
+			<real>755811831.43550503</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>3094DB3E-DABD-4A7E-889E-D590229EAA8C</string>
+		</dict>
+		<key>3861DB60-E6B3-47A5-A11E-829B84522C6E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3861DB60-E6B3-47A5-A11E-829B84522C6E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755816659.95646298</real>
+			<key>timeStoppedRecording</key>
+			<real>755816662.26091397</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>3861DB60-E6B3-47A5-A11E-829B84522C6E</string>
+		</dict>
+		<key>39A559C9-D1E0-4520-B52F-52718DCC314F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>39A559C9-D1E0-4520-B52F-52718DCC314F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755814663.85961699</real>
+			<key>timeStoppedRecording</key>
+			<real>755814665.44444895</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>39A559C9-D1E0-4520-B52F-52718DCC314F</string>
+		</dict>
 		<key>3EDDE994-82F3-487D-9C01-46C1AEF1DFF8</key>
 		<dict>
 			<key>className</key>
@@ -48,7 +678,7 @@
 			<key>uniqueIdentifier</key>
 			<string>3EDDE994-82F3-487D-9C01-46C1AEF1DFF8</string>
 		</dict>
-		<key>AEB1DE6B-CC3B-4D0B-BA41-5536B1B81837</key>
+		<key>3F3F2E2E-3D09-4204-8F9E-687705928EDA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -57,7 +687,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AEB1DE6B-CC3B-4D0B-BA41-5536B1B81837.xcactivitylog</string>
+			<string>3F3F2E2E-3D09-4204-8F9E-687705928EDA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,15 +712,15 @@
 			<key>signature</key>
 			<string>Build AoC24</string>
 			<key>timeStartedRecording</key>
-			<real>755752039.78341198</real>
+			<real>755807551.41646504</real>
 			<key>timeStoppedRecording</key>
-			<real>755752046.24078798</real>
+			<real>755807552.87374604</real>
 			<key>title</key>
 			<string>Build AoC24</string>
 			<key>uniqueIdentifier</key>
-			<string>AEB1DE6B-CC3B-4D0B-BA41-5536B1B81837</string>
+			<string>3F3F2E2E-3D09-4204-8F9E-687705928EDA</string>
 		</dict>
-		<key>B0F8B51B-958F-44C4-BB5F-A5EA2BF934B1</key>
+		<key>41AAF470-203C-4B94-ABCD-E77AEB2FF8E4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -99,21 +729,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B0F8B51B-958F-44C4-BB5F-A5EA2BF934B1.xcactivitylog</string>
+			<string>41AAF470-203C-4B94-ABCD-E77AEB2FF8E4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>E</string>
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
-				<integer>0</integer>
+				<integer>3</integer>
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
-				<integer>6</integer>
+				<integer>18</integer>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>AoC24 project</string>
@@ -124,15 +754,15 @@
 			<key>signature</key>
 			<string>Build AoC24</string>
 			<key>timeStartedRecording</key>
-			<real>755752173.72631395</real>
+			<real>755799774.86310506</real>
 			<key>timeStoppedRecording</key>
-			<real>755752178.28571606</real>
+			<real>755799785.66886306</real>
 			<key>title</key>
 			<string>Build AoC24</string>
 			<key>uniqueIdentifier</key>
-			<string>B0F8B51B-958F-44C4-BB5F-A5EA2BF934B1</string>
+			<string>41AAF470-203C-4B94-ABCD-E77AEB2FF8E4</string>
 		</dict>
-		<key>C9025375-8F1D-4D8C-8470-1FC143604A50</key>
+		<key>42B29EC6-4C22-46E5-A45F-969BBB1011A8</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -141,7 +771,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C9025375-8F1D-4D8C-8470-1FC143604A50.xcactivitylog</string>
+			<string>42B29EC6-4C22-46E5-A45F-969BBB1011A8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -164,17 +794,17 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Build AoC24</string>
+			<string>Clean AoC24</string>
 			<key>timeStartedRecording</key>
-			<real>755752325.50373399</real>
+			<real>755808398.823614</real>
 			<key>timeStoppedRecording</key>
-			<real>755752325.830217</real>
+			<real>755808399.44838297</real>
 			<key>title</key>
-			<string>Build AoC24</string>
+			<string>Clean AoC24</string>
 			<key>uniqueIdentifier</key>
-			<string>C9025375-8F1D-4D8C-8470-1FC143604A50</string>
+			<string>42B29EC6-4C22-46E5-A45F-969BBB1011A8</string>
 		</dict>
-		<key>ED5EA1BA-C812-4A9B-B1ED-5F2A04C88E95</key>
+		<key>43FA74E6-4EB1-4DBC-A94B-910A6E8A946E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -183,7 +813,175 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>ED5EA1BA-C812-4A9B-B1ED-5F2A04C88E95.xcactivitylog</string>
+			<string>43FA74E6-4EB1-4DBC-A94B-910A6E8A946E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>8</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755801592.91540098</real>
+			<key>timeStoppedRecording</key>
+			<real>755801594.35283697</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>43FA74E6-4EB1-4DBC-A94B-910A6E8A946E</string>
+		</dict>
+		<key>446B5221-AE46-4175-B0F4-BB69E386B6B9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>446B5221-AE46-4175-B0F4-BB69E386B6B9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755814516.74916804</real>
+			<key>timeStoppedRecording</key>
+			<real>755814517.55034399</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>446B5221-AE46-4175-B0F4-BB69E386B6B9</string>
+		</dict>
+		<key>4ADF85EE-FC9C-46D7-8247-FF1561BA5D10</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4ADF85EE-FC9C-46D7-8247-FF1561BA5D10.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755816754.58448899</real>
+			<key>timeStoppedRecording</key>
+			<real>755816756.273422</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>4ADF85EE-FC9C-46D7-8247-FF1561BA5D10</string>
+		</dict>
+		<key>4D79BA12-7EA3-47D2-8174-6B78A0AF2DDB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4D79BA12-7EA3-47D2-8174-6B78A0AF2DDB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755807648.37461495</real>
+			<key>timeStoppedRecording</key>
+			<real>755807650.08591998</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>4D79BA12-7EA3-47D2-8174-6B78A0AF2DDB</string>
+		</dict>
+		<key>573238CA-DABC-4A0B-9341-D7997408DE9B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>573238CA-DABC-4A0B-9341-D7997408DE9B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -208,13 +1006,1063 @@
 			<key>signature</key>
 			<string>Build AoC24</string>
 			<key>timeStartedRecording</key>
-			<real>755495487.89183497</real>
+			<real>755814863.32113695</real>
 			<key>timeStoppedRecording</key>
-			<real>755495488.01857603</real>
+			<real>755814864.78248405</real>
 			<key>title</key>
 			<string>Build AoC24</string>
 			<key>uniqueIdentifier</key>
-			<string>ED5EA1BA-C812-4A9B-B1ED-5F2A04C88E95</string>
+			<string>573238CA-DABC-4A0B-9341-D7997408DE9B</string>
+		</dict>
+		<key>5B6D234E-F507-4C74-A207-B4587110EC72</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5B6D234E-F507-4C74-A207-B4587110EC72.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755801582.279598</real>
+			<key>timeStoppedRecording</key>
+			<real>755801582.96060801</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>5B6D234E-F507-4C74-A207-B4587110EC72</string>
+		</dict>
+		<key>61CD6A1A-78CF-4AE9-AC67-CB69AD1E96B7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>61CD6A1A-78CF-4AE9-AC67-CB69AD1E96B7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755814232.58560896</real>
+			<key>timeStoppedRecording</key>
+			<real>755814232.65551805</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>61CD6A1A-78CF-4AE9-AC67-CB69AD1E96B7</string>
+		</dict>
+		<key>6809AC06-AF28-490B-9B4B-FEAAE6C70674</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6809AC06-AF28-490B-9B4B-FEAAE6C70674.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755815581.22011602</real>
+			<key>timeStoppedRecording</key>
+			<real>755815582.630144</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>6809AC06-AF28-490B-9B4B-FEAAE6C70674</string>
+		</dict>
+		<key>69007443-8800-40AD-B900-42A1DB2A741B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>69007443-8800-40AD-B900-42A1DB2A741B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755801146.89666498</real>
+			<key>timeStoppedRecording</key>
+			<real>755801148.50519204</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>69007443-8800-40AD-B900-42A1DB2A741B</string>
+		</dict>
+		<key>7391CE63-C5AB-4926-A95C-BAB1F9782C7A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7391CE63-C5AB-4926-A95C-BAB1F9782C7A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755812102.92133904</real>
+			<key>timeStoppedRecording</key>
+			<real>755812104.50516498</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>7391CE63-C5AB-4926-A95C-BAB1F9782C7A</string>
+		</dict>
+		<key>770617AF-40EA-4DF8-A42B-48D79B702255</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>770617AF-40EA-4DF8-A42B-48D79B702255.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755815891.04348397</real>
+			<key>timeStoppedRecording</key>
+			<real>755815892.55099499</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>770617AF-40EA-4DF8-A42B-48D79B702255</string>
+		</dict>
+		<key>858B62AE-B5CF-4E04-9276-8334906CDC38</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>858B62AE-B5CF-4E04-9276-8334906CDC38.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755811916.38880897</real>
+			<key>timeStoppedRecording</key>
+			<real>755811917.95640099</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>858B62AE-B5CF-4E04-9276-8334906CDC38</string>
+		</dict>
+		<key>8B456EDD-3CC4-4F91-93B0-7C4176F40D16</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8B456EDD-3CC4-4F91-93B0-7C4176F40D16.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755814174.94230998</real>
+			<key>timeStoppedRecording</key>
+			<real>755814176.38166499</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>8B456EDD-3CC4-4F91-93B0-7C4176F40D16</string>
+		</dict>
+		<key>8C607981-69CA-4F55-ADAF-D734AAEBC4B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8C607981-69CA-4F55-ADAF-D734AAEBC4B3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>8</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755801676.63176501</real>
+			<key>timeStoppedRecording</key>
+			<real>755801678.02260101</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>8C607981-69CA-4F55-ADAF-D734AAEBC4B3</string>
+		</dict>
+		<key>8E7EACC5-C26D-4CDB-B8E6-195BEAD3F8DC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8E7EACC5-C26D-4CDB-B8E6-195BEAD3F8DC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755815876.88968599</real>
+			<key>timeStoppedRecording</key>
+			<real>755815878.57867599</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>8E7EACC5-C26D-4CDB-B8E6-195BEAD3F8DC</string>
+		</dict>
+		<key>95B636F6-ACC2-40E4-B142-336FCC9BF5DF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>95B636F6-ACC2-40E4-B142-336FCC9BF5DF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755814762.61503899</real>
+			<key>timeStoppedRecording</key>
+			<real>755814764.05550897</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>95B636F6-ACC2-40E4-B142-336FCC9BF5DF</string>
+		</dict>
+		<key>99163130-9120-423F-8919-0F42CFBA438D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>99163130-9120-423F-8919-0F42CFBA438D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755812206.61233699</real>
+			<key>timeStoppedRecording</key>
+			<real>755812208.31100595</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>99163130-9120-423F-8919-0F42CFBA438D</string>
+		</dict>
+		<key>9971BBB3-918A-4700-A20F-499D6CD01453</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9971BBB3-918A-4700-A20F-499D6CD01453.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>12</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755800107.416327</real>
+			<key>timeStoppedRecording</key>
+			<real>755800109.06504405</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>9971BBB3-918A-4700-A20F-499D6CD01453</string>
+		</dict>
+		<key>9C62FC1C-1349-4DE7-9515-D3A97EA80A27</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9C62FC1C-1349-4DE7-9515-D3A97EA80A27.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>8</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755801517.72490501</real>
+			<key>timeStoppedRecording</key>
+			<real>755801519.16346002</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>9C62FC1C-1349-4DE7-9515-D3A97EA80A27</string>
+		</dict>
+		<key>9F10CAD3-B39D-4F05-8662-066CEE7B39C8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9F10CAD3-B39D-4F05-8662-066CEE7B39C8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>19</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755799792.15293705</real>
+			<key>timeStoppedRecording</key>
+			<real>755799795.66395903</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>9F10CAD3-B39D-4F05-8662-066CEE7B39C8</string>
+		</dict>
+		<key>A15362D8-06B0-4E56-8069-528C559224C7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A15362D8-06B0-4E56-8069-528C559224C7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>19</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755799990.87162495</real>
+			<key>timeStoppedRecording</key>
+			<real>755799993.64282703</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>A15362D8-06B0-4E56-8069-528C559224C7</string>
+		</dict>
+		<key>A610B153-DCCB-447D-B791-26DFD72C0DFB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A610B153-DCCB-447D-B791-26DFD72C0DFB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755804823.50911903</real>
+			<key>timeStoppedRecording</key>
+			<real>755804824.31897795</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>A610B153-DCCB-447D-B791-26DFD72C0DFB</string>
+		</dict>
+		<key>BC9411AA-B8D3-472F-AD65-43132FC4697F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BC9411AA-B8D3-472F-AD65-43132FC4697F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>19</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755800056.09178805</real>
+			<key>timeStoppedRecording</key>
+			<real>755800057.57187903</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>BC9411AA-B8D3-472F-AD65-43132FC4697F</string>
+		</dict>
+		<key>C88CCB72-DEE6-4C46-9E1D-7882E322BBC8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C88CCB72-DEE6-4C46-9E1D-7882E322BBC8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755803425.33142304</real>
+			<key>timeStoppedRecording</key>
+			<real>755803426.79228902</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>C88CCB72-DEE6-4C46-9E1D-7882E322BBC8</string>
+		</dict>
+		<key>D1533D15-6559-46B6-ACE5-733F1A0E3480</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D1533D15-6559-46B6-ACE5-733F1A0E3480.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755803147.13679194</real>
+			<key>timeStoppedRecording</key>
+			<real>755803148.58731794</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>D1533D15-6559-46B6-ACE5-733F1A0E3480</string>
+		</dict>
+		<key>DE576BA3-B200-40C8-AD29-B57391DBE560</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DE576BA3-B200-40C8-AD29-B57391DBE560.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755802993.67335796</real>
+			<key>timeStoppedRecording</key>
+			<real>755802995.29830396</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>DE576BA3-B200-40C8-AD29-B57391DBE560</string>
+		</dict>
+		<key>E8ADECEE-67E1-4E05-A97D-9ED0529673CC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E8ADECEE-67E1-4E05-A97D-9ED0529673CC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>6</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755812157.81375098</real>
+			<key>timeStoppedRecording</key>
+			<real>755812159.55088305</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>E8ADECEE-67E1-4E05-A97D-9ED0529673CC</string>
+		</dict>
+		<key>EFC8D72A-15ED-47C1-80F8-3B2FD7FCF3FF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EFC8D72A-15ED-47C1-80F8-3B2FD7FCF3FF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755815283.32593298</real>
+			<key>timeStoppedRecording</key>
+			<real>755815285.45010602</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>EFC8D72A-15ED-47C1-80F8-3B2FD7FCF3FF</string>
+		</dict>
+		<key>F387959C-8285-4F66-83D7-19FBA4FE74A5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F387959C-8285-4F66-83D7-19FBA4FE74A5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755807530.35145497</real>
+			<key>timeStoppedRecording</key>
+			<real>755807531.14107394</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>F387959C-8285-4F66-83D7-19FBA4FE74A5</string>
+		</dict>
+		<key>FD2A934C-ED91-4D26-99E5-FF5C5290BFD0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FD2A934C-ED91-4D26-99E5-FF5C5290BFD0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AoC24 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AoC24</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AoC24</string>
+			<key>timeStartedRecording</key>
+			<real>755815952.38925695</real>
+			<key>timeStoppedRecording</key>
+			<real>755815953.85068095</real>
+			<key>title</key>
+			<string>Build AoC24</string>
+			<key>uniqueIdentifier</key>
+			<string>FD2A934C-ED91-4D26-99E5-FF5C5290BFD0</string>
 		</dict>
 	</dict>
 </dict>

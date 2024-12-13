@@ -37,7 +37,7 @@ func Day10(file: String, part: Int) -> String {
     }
     
     let trailheads = Set(mapPos.filter { $0.value == 0 }.map(\.key))
-    let peaks = Set(mapPos.filter { $0.value == 9 }.map(\.key))
+//    let peaks = Set(mapPos.filter { $0.value == 9 }.map(\.key))
     
     // Build all the edges (directional)
     var edges: [Edge] = []
@@ -116,7 +116,7 @@ func Day10(file: String, part: Int) -> String {
     }
     
     func getNeighbors(_ coordinate: Coordinate) -> [Coordinate] {
-        var neighbors: [Coordinate] = edges.filter { $0.start == coordinate }.map { $0.end }
+        let neighbors: [Coordinate] = edges.filter { $0.start == coordinate }.map { $0.end }
         
         return neighbors
     }

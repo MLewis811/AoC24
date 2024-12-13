@@ -1,0 +1,75 @@
+{
+  "" : {
+    "dependencies" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/Build/Intermediates.noindex/AoC24.build/Debug-iphoneos/AoC24.build/Objects-normal/arm64/AoC24-master.d",
+    "diagnostics" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/Build/Intermediates.noindex/AoC24.build/Debug-iphoneos/AoC24.build/Objects-normal/arm64/AoC24-master.dia",
+    "emit-module-dependencies" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/Build/Intermediates.noindex/AoC24.build/Debug-iphoneos/AoC24.build/Objects-normal/arm64/AoC24-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/Build/Intermediates.noindex/AoC24.build/Debug-iphoneos/AoC24.build/Objects-normal/arm64/AoC24-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/Build/Intermediates.noindex/AoC24.build/Debug-iphoneos/AoC24.build/Objects-normal/arm64/AoC24-master.swiftdeps"
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/AoC24App.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/ContentView.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 1/Day1.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 10/Day10.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 11/Day11.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 12/Day12.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 13/Day13.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 14/Day14.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 2/Day2.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 3/Day3.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 4/Day4.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 5/Day5.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 6/Day6.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 7/Day7.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 8/Day8.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/Day 9/Day9.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/DayTemplate.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/AoC24/doDay.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/DerivedData/AoC24/Index.noindex/Build/Intermediates.noindex/AoC24.build/Debug-iphoneos/AoC24.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/Helpers/LoadDataFromFile.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/Helpers/MathFuncs.swift" : {
+
+  },
+  "/Users/mikelewis/Developer/AoC24/Helpers/StringExtensions.swift" : {
+
+  }
+}

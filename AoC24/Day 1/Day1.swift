@@ -16,7 +16,7 @@ func Day1(file: String, part: Int) -> String {
     var tot = 0
     
     for line in lines {
-        var nums = line.split(separator: " ").map {Int($0)!}
+        let nums = line.split(separator: " ").map {Int($0)!}
     
         left.append(nums[0])
         right.append(nums[1])

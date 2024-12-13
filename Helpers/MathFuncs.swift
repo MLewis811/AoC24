@@ -37,3 +37,16 @@ func lcmm(_ nums: [Int] ) -> Int {
     let newNums = Array(nums[1...])
     return lcm(a,lcmm(newNums))
 }
+
+// Extended Greatest Common Divisor (Extended Euclidean Algorithm)
+func extendedGCD(_ a: Int, _ b: Int) -> (x: Int, y: Int) {
+    if b == 0 {
+        return (1, 0)
+    }
+    
+    let (x1, y1) = extendedGCD(b, a % b)
+    let x = y1
+    let y = x1 - y1 * (a / b)
+    
+    return (x,y)
+}
