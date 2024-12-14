@@ -38,6 +38,16 @@ func lcmm(_ nums: [Int] ) -> Int {
     return lcm(a,lcmm(newNums))
 }
 
+// Modulo operator that always returns a positive #
+infix operator %%
+extension Int {
+    static  func %% (_ left: Int, _ right: Int) -> Int {
+        if left >= 0 { return left % right }
+        if left >= -right { return (left+right) }
+        return ((left % right)+right)%right
+    }
+}
+
 // Extended Greatest Common Divisor (Extended Euclidean Algorithm)
 func extendedGCD(_ a: Int, _ b: Int) -> (x: Int, y: Int) {
     if b == 0 {

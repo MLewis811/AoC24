@@ -4,50 +4,82 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Input",
-        "location": {
-          "startingColumn": 20,
-          "startingLine": 49
-        }
-      },
-      {
-        "comment": "",
-        "key": "Part",
+        "key": "Back",
         "location": {
           "startingColumn": 24,
-          "startingLine": 38
-        }
-      },
-      {
-        "comment": "",
-        "key": "Day",
-        "location": {
-          "startingColumn": 26,
-          "startingLine": 26
-        }
-      },
-      {
-        "comment": "",
-        "key": "Day #",
-        "location": {
-          "startingColumn": 28,
-          "startingLine": 28
+          "startingLine": 85
         }
       },
       {
         "comment": "",
         "key": "%lld",
         "location": {
-          "startingColumn": 30,
-          "startingLine": 40
+          "startingColumn": 24,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 106
         }
       },
       {
         "comment": "",
         "key": "Run",
         "location": {
+          "startingColumn": 51,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "Input",
+        "location": {
           "startingColumn": 24,
-          "startingLine": 60
+          "startingLine": 152
+        }
+      },
+      {
+        "comment": "",
+        "key": "Part",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Day",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "Day #",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "Run",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 163
         }
       }
     ]
