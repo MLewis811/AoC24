@@ -6,7 +6,7 @@
 	<dict>
 		<key>AoC24.debug.dylib</key>
 		<data>
-		giKJ/K3XFcgxxMIHA26p6CoudjY=
+		GepIwwWWHhmhVz/a25eokW/50ug=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -62,11 +62,19 @@
 		</data>
 		<key>day15input.txt</key>
 		<data>
-		GRqxG2qY0GI08PDnilyy7hyR7js=
+		PNDSym1xYrXJ7M+8qo299Y+E1GY=
 		</data>
 		<key>day15sampleInput.txt</key>
 		<data>
-		I9Dgq1P8UTTjVQJmL3CNHthF2gU=
+		DXKzqXxle6j/XxChkAvtJkooUC0=
+		</data>
+		<key>day16input.txt</key>
+		<data>
+		PNDSym1xYrXJ7M+8qo299Y+E1GY=
+		</data>
+		<key>day16sampleInput.txt</key>
+		<data>
+		DXKzqXxle6j/XxChkAvtJkooUC0=
 		</data>
 		<key>day1input.txt</key>
 		<data>
@@ -147,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QRBgodQoetJAcn1kHCfzszh53dpwNAZft4m7Nx93ibQ=
+			2uAWNOplf+Bid3bDJzYX3Ncg+t5pbQ1xO2rFxh/PWdI=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>
@@ -231,14 +239,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QIcNulbEs97BJTyYqsdmNQLoiDT5zMW1Nr3yETA8ZjA=
+			qrdTn2ZvQR3zv0veevMDrvu7/KymJrFQOKCNCfcGo54=
 			</data>
 		</dict>
 		<key>day15sampleInput.txt</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jGk7GvQJfOi+a8JzUpI0PkjR+RjTNK7gqTBpAYU0PuA=
+			Enptk9isUy+4kdP78foP6frWFifZ1UB3ajXHlygnfk0=
+			</data>
+		</dict>
+		<key>day16input.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qrdTn2ZvQR3zv0veevMDrvu7/KymJrFQOKCNCfcGo54=
+			</data>
+		</dict>
+		<key>day16sampleInput.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Enptk9isUy+4kdP78foP6frWFifZ1UB3ajXHlygnfk0=
 			</data>
 		</dict>
 		<key>day1input.txt</key>

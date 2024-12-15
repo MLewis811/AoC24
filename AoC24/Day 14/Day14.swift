@@ -139,7 +139,7 @@ func Day14(file: String, part: Int) -> String {
     } else {
         
         
-        var t = 0
+        let t = 0
         
         var currLoc: Set<Loc> = []
         
@@ -160,7 +160,7 @@ func Day14(file: String, part: Int) -> String {
     
     func Day14Part2(file: String, part: Int) -> [[Bool]] {
         
-        var t = 0
+        let t = 0
         
         var retArray: [[Bool]] = []
         
