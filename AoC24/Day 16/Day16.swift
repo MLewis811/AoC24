@@ -125,12 +125,12 @@ func Day16(file: String, part: Int) -> String {
     
     // use nodes to fill edges
     fillEdges()
-    print("\(edges.count) nodes")
+    print("\(edges.count) edges")
 
-    let startEdges = edges.filter( { $0.start.coord == start } )
-    for edge in startEdges {
-        print("\(edge.start.coordStr) -> \(edge.end.coordStr)")
-    }
+//    let startEdges = edges.filter( { $0.start.coord == start } )
+//    for edge in startEdges {
+//        print("\(edge.start.coordStr) -> \(edge.end.coordStr)")
+//    }
     
     var sptSet: Set<Coordinate> = []
     var dist: [Coordinate: Int] = [:]
@@ -139,16 +139,49 @@ func Day16(file: String, part: Int) -> String {
     }
     dist[Coordinate(coord: start, dir: .east)] = 0
     
+    // FIX THIS: Change pathCoords into a dict [MapCoordinate: [MapCoordinate]]
+    // that contains the parents of each node. Once all shortest paths found, follow
+    // parents back to the start and count distinct coords (ignoring dir)
+    var pathCoords: Set<MapCoordinate> = []
+    var shortPathDist = -1
+    var pathCoordCount = -1
     while sptSet.count != nodes.count {
         let notInSptSet = nodes.subtracting(sptSet)
-        var minDistNode = dist.keys.filter( { notInSptSet.contains($0) } ).min(by: { dist[$0]! < dist[$1]! })!
-        var minDist = dist[minDistNode]!
+        let minDistNode = dist.keys.filter( { notInSptSet.contains($0) } ).min(by: { dist[$0]! < dist[$1]! })!
+        let minDist = dist[minDistNode]!
         sptSet.insert(minDistNode)
+        if sptSet.contains(Coordinate(coord: MapCoordinate(
+            x: minDistNode.coord.x + dirVectors[oppDir(minDistNode.dir)]!.x,
+            y: minDistNode.coord.y + dirVectors[oppDir(minDistNode.dir)]!.y),
+                                      dir: minDistNode.dir)) {
+            sptSet.insert(Coordinate(coord: minDistNode.coord, dir: oppDir(minDistNode.dir)))
+            
+        }
+        pathCoords.insert(minDistNode.coord)
         
         if minDistNode.coord == end {
-            print("We made it!")
-            print(minDist)
-            return("\(minDist)")
+            if part == 1 {
+                print("We made it!")
+                print(minDist)
+                return("\(minDist)")
+            } else {
+                if shortPathDist == -1 {
+                    print("Found path with dist = \(minDist) - \(pathCoords.count) coords")
+                    shortPathDist = minDist
+                    pathCoordCount = pathCoords.count
+                    for coord in pathCoords.sorted(by: { ($0.y, $0.x) < ($1.y, $1.x) } ) { print("  \(coord.x),\(coord.y)") }
+                } else if minDist == shortPathDist {
+                    print("Found path with dist = \(minDist) - \(pathCoords.count) coords")
+                    pathCoordCount = pathCoords.count
+                    for coord in pathCoords.sorted(by: { ($0.y, $0.x) < ($1.y, $1.x) } ) { print("  \(coord.x),\(coord.y)") }
+                } else {
+                    print("Found path with dist = \(minDist) - bailing out")
+
+                    print("Done!")
+                    print(pathCoordCount)
+                    return "\(pathCoordCount)"
+                }
+            }
         }
 
         
