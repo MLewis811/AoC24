@@ -7,7 +7,7 @@
 
 import Foundation
 
-func DayXXXX(file: String, part: Int) -> String {
+func Day17(file: String, part: Int) -> String {
     var tot = 0
     let lines = loadStringsFromFile(file)
     
