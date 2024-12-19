@@ -132,6 +132,8 @@ func Day16(file: String, part: Int) -> String {
 //        print("\(edge.start.coordStr) -> \(edge.end.coordStr)")
 //    }
     
+    var parents: [Coordinate: [Coordinate]] = [:]
+    
     var sptSet: Set<Coordinate> = []
     var dist: [Coordinate: Int] = [:]
     for node in nodes {
@@ -139,12 +141,19 @@ func Day16(file: String, part: Int) -> String {
     }
     dist[Coordinate(coord: start, dir: .east)] = 0
     
-    // FIX THIS: Change pathCoords into a dict [MapCoordinate: [MapCoordinate]]
-    // that contains the parents of each node. Once all shortest paths found, follow
-    // parents back to the start and count distinct coords (ignoring dir)
-    var pathCoords: Set<MapCoordinate> = []
-    var shortPathDist = -1
-    var pathCoordCount = -1
+    func fillOnBestPath(node: Coordinate) -> Set<MapCoordinate> {
+        if node.coord == start {
+            return Set([node.coord])
+        }
+        
+        var newOnBestPath: Set<MapCoordinate> = [node.coord]
+        for parent in parents[node] ?? [] {
+            newOnBestPath = newOnBestPath.union(fillOnBestPath(node: parent))
+        }
+
+        return newOnBestPath
+    }
+
     while sptSet.count != nodes.count {
         let notInSptSet = nodes.subtracting(sptSet)
         let minDistNode = dist.keys.filter( { notInSptSet.contains($0) } ).min(by: { dist[$0]! < dist[$1]! })!
@@ -155,9 +164,7 @@ func Day16(file: String, part: Int) -> String {
             y: minDistNode.coord.y + dirVectors[oppDir(minDistNode.dir)]!.y),
                                       dir: minDistNode.dir)) {
             sptSet.insert(Coordinate(coord: minDistNode.coord, dir: oppDir(minDistNode.dir)))
-            
         }
-        pathCoords.insert(minDistNode.coord)
         
         if minDistNode.coord == end {
             if part == 1 {
@@ -165,31 +172,24 @@ func Day16(file: String, part: Int) -> String {
                 print(minDist)
                 return("\(minDist)")
             } else {
-                if shortPathDist == -1 {
-                    print("Found path with dist = \(minDist) - \(pathCoords.count) coords")
-                    shortPathDist = minDist
-                    pathCoordCount = pathCoords.count
-                    for coord in pathCoords.sorted(by: { ($0.y, $0.x) < ($1.y, $1.x) } ) { print("  \(coord.x),\(coord.y)") }
-                } else if minDist == shortPathDist {
-                    print("Found path with dist = \(minDist) - \(pathCoords.count) coords")
-                    pathCoordCount = pathCoords.count
-                    for coord in pathCoords.sorted(by: { ($0.y, $0.x) < ($1.y, $1.x) } ) { print("  \(coord.x),\(coord.y)") }
-                } else {
-                    print("Found path with dist = \(minDist) - bailing out")
-
-                    print("Done!")
-                    print(pathCoordCount)
-                    return "\(pathCoordCount)"
-                }
+                print("Got there this way")
+//                print(parents[Coordinate(coord: MapCoordinate(x: 5, y: 7), dir: .east)]!)
+                let onBestPath = fillOnBestPath(node: minDistNode)
+//                print(onBestPath)
+                return("\(onBestPath.count)")
             }
         }
-
         
         for edge in edges where edge.start == minDistNode {
             let newDist = dist[minDistNode]! + edge.weight
-            if newDist < dist[edge.end]! {
+            if newDist <= dist[edge.end]! {
 //                print("Updating dist[\(edge.end.coordStr)] to \(newDist)")
                 dist[edge.end] = newDist
+                if parents[edge.end] == nil {
+                    parents[edge.end] = [minDistNode]
+                } else {
+                    parents[edge.end]!.append(minDistNode)
+                }
             }
         }
         
