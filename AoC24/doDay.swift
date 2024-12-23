@@ -47,10 +47,10 @@ func doDay(day: Int, file: String, part: Int) -> String {
         return Day17(file: dayFile, part: part)
     case 18:
         return Day18(file: dayFile, part: part)
-//    case 19:
-//        return Day19(file: dayFile, part: part)
-//    case 20:
-//        return Day20(file: dayFile, part: part)
+    case 19:
+        return Day19(file: dayFile, part: part)
+    case 20:
+        return Day20(file: dayFile, part: part)
 //    case 21:
 //        return Day21(file: dayFile, part: part)
 //    case 22:

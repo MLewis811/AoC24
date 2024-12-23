@@ -172,7 +172,7 @@ func Day17(file: String, part: Int) -> String {
         print(outStr)
     } else {
         var matchFound = false
-        var i = 49112898960 // start at 49112898960
+        var i = 49112898960 // start at 49368472505
         while !matchFound {
             i += 1
             register["A"] = i

@@ -22,7 +22,7 @@ func makeBoolArray() -> [Bool] {
 }
 
 struct ContentView: View {
-    @State private var dayNum = 18
+    @State private var dayNum = 20
     @State private var inputFileNum = 0
     @State private var fileName = "sampleInput.txt"
     @State private var outputVal = ""
