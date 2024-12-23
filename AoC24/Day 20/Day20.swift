@@ -90,22 +90,30 @@ func Day20(file: String, part: Int) -> String {
     }
     
     let threshold = 100
-    
+    let cheatLen = part == 1 ? 2 : 20
+ 
     for i in 0..<shortestPath.count {
         let cheatStart = shortestPath[i]
-        for dir in dirVectors.keys {
-            let vector = dirVectors[dir]!
-            if walls.contains(Coordinate(x: cheatStart.x + vector.x, y: cheatStart.y + vector.y)) {
-                let cheatEnd = Coordinate(x: cheatStart.x + vector.x * 2, y: cheatStart.y + vector.y * 2)
-                if nodes.contains(cheatEnd) {
-                    if pathDist[cheatEnd]! - pathDist[cheatStart]! - 2 >= threshold {
-                        tot += 1
-                        print("\(cheatStart.coordStr) -> \(cheatEnd.coordStr) saves \(pathDist[cheatEnd]! - pathDist[cheatStart]! - 2)")
-                    }
-                }
-            }
-        }
+        tot += nodes.filter( { taxicabDistance(cheatStart, $0) <= cheatLen && pathDist[$0]! - pathDist[cheatStart]! - taxicabDistance(cheatStart, $0) >= threshold } ).count
+//            tot += 1
+//            print("\(cheatStart.coordStr) -> \(end.coordStr) saves \(pathDist[end]! - pathDist[cheatStart]! - cheatLen)")
     }
+    
+//    for i in 0..<shortestPath.count {
+//        let cheatStart = shortestPath[i]
+//        for dir in dirVectors.keys {
+//            let vector = dirVectors[dir]!
+//            if walls.contains(Coordinate(x: cheatStart.x + vector.x, y: cheatStart.y + vector.y)) {
+//                let cheatEnd = Coordinate(x: cheatStart.x + vector.x * 2, y: cheatStart.y + vector.y * 2)
+//                if nodes.contains(cheatEnd) {
+//                    if pathDist[cheatEnd]! - pathDist[cheatStart]! - 2 >= threshold {
+//                        tot += 1
+//                        print("\(cheatStart.coordStr) -> \(cheatEnd.coordStr) saves \(pathDist[cheatEnd]! - pathDist[cheatStart]! - 2)")
+//                    }
+//                }
+//            }
+//        }
+//    }
     
     
     
@@ -169,5 +177,9 @@ func Day20(file: String, part: Int) -> String {
             shortestPath.append(to)
             
         }
+    }
+    
+    func taxicabDistance(_ a: Coordinate, _ b: Coordinate) -> Int {
+        return abs(a.x - b.x) + abs(a.y - b.y)
     }
 }
