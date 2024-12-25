@@ -47,21 +47,83 @@ func Day21(file: String, part: Int) -> String {
     var dirPadInst = fillDirPadInst()
     
     pruneDirPadInsts()
-    
-//    let possibleDirs = recursiveDirs("179A", numRobots: 3)
-//    print(possibleDirs[0].count)
-//    print("<v<A>>^A<vA<A>>^AAvAA<^A>A<v<A>>^AAvA^A<vA>^AA<A>A<v<A>A>^AAAvA<^A>A".count)
-    
+
     for line in lines {
-        let numVal = Int(String(line[0..<line.count-1]))!
-        let possibleDirs = recursiveDirs(line, numRobots: part == 1 ? 3 : 26)
-        let complexity = numVal * possibleDirs[0].count
-        print("\(numVal) * \(possibleDirs[0].count) = \(complexity)")
-        tot += complexity
+        let complex = complexity(line)
+        print("\(line): \(complex)")
+        tot += complex
     }
+    
+    
+    func complexity(_ code: String) -> Int {
+        let numVal = Int(String(code[0..<code.count-1]))!
+        let firstMove = enterCode(code, currPos: .push)
+        var moveCnts = getDirMoveCounts(firstMove[0])
+        for _ in 0..<((part == 1) ? 2 : 25) {
+            var newCnts: [dirPadMove: Int] = [:]
+            for (move, count) in moveCnts {
+                if count > 0 {
+                    let instCounts = getDirMoveCounts(dirPadInst[move]![0])
+                    for (newMove, newCount) in instCounts {
+                        newCnts[newMove] = (newCnts[newMove] ?? 0) + (newCount * count)
+                    }
+                }
+            }
+            moveCnts = newCnts
+        }
+        
+        var subTotal: Int = 0
+        for (move, count) in moveCnts {
+//            print("\(move.start.rawValue) \(move.end.rawValue): \(count)")
+            subTotal += count
+        }
+//        print("subTotal: \(subTotal)")
+        
+        return subTotal * numVal
+    }
+    
+    print("***")
+//    subTotal = 0
+//    for (move, count) in getDirMoveCounts("<vA<AA>>^AvAA<^A>A<v<A>>^AvA^A<vA>^A<v<A>^A>AAvA^A<v<A>A>^AAAvA<^A>A") {
+//        print("\(move.start.rawValue) \(move.end.rawValue): \(count)")
+//        subTotal += count
+//    }
+//    print("subTotal: \(subTotal)")
+
+    
+        
+//    for line in lines {
+//        let numVal = Int(String(line[0..<line.count-1]))!
+//        let possibleDirs = recursiveDirs(line, numRobots: part == 1 ? 3 : 26)
+//        let complexity = numVal * possibleDirs[0].count
+//        print("\(numVal) * \(possibleDirs[0].count) = \(complexity)")
+//        tot += complexity
+//    }
+    
+//    var subTot: Int = 0
+//    for (move, count) in getDirMoveCounts("<vA<AA>>^AvAA<^A>A<v<A>>^AvA^A<vA>^A<v<A>^A>AAvA^A<v<A>A>^AAAvA<^A>A") {
+//        subTot += count
+//        print("\(move.start.rawValue) -> \(move.end.rawValue): \(count)")
+//    }
+//    print("subTot: \(subTot)")
+//    
+//    print(enterCode("029A", currPos: .push))
     
     print(tot)
     return "\(tot)"
+    
+    func getDirMoveCounts(_ inst: String) -> [dirPadMove: Int] {
+        var counts: [dirPadMove: Int] = [:]
+        var prevPos: DirPad = .push
+        for char in inst {
+            let newPos = DirPad(rawValue: String(char))!
+            let move = dirPadMove( start: prevPos, end: newPos )
+            counts[move] = counts[move] ?? 0
+            counts[move]! += 1
+            prevPos = newPos
+        }
+        return counts
+    }
     
     func pruneDirPadInsts() {
         for (move, insts) in dirPadInst {
@@ -137,6 +199,7 @@ func Day21(file: String, part: Int) -> String {
         }
         
 //        print( "Returning \(retVal)")
+        assert(retVal.count == 1)
         return retVal
     }
     
@@ -164,7 +227,7 @@ func Day21(file: String, part: Int) -> String {
     func fillDirPadInst() -> [dirPadMove: [String]] {
         var dirPadInst: [dirPadMove: [String]] = [:]
         
-        dirPadInst[dirPadMove(start: .up, end: .right)] = [">vA", "v>A"]
+        dirPadInst[dirPadMove(start: .up, end: .right)] = ["v>A"]
         dirPadInst[dirPadMove(start: .up, end: .down)] = ["vA"]
         dirPadInst[dirPadMove(start: .up, end: .left)] = ["v<A"]
         dirPadInst[dirPadMove(start: .up, end: .up)] = ["A"]
@@ -174,24 +237,22 @@ func Day21(file: String, part: Int) -> String {
         dirPadInst[dirPadMove(start: .left, end: .down)] = [">A"]
         dirPadInst[dirPadMove(start: .left, end: .left)] = ["A"]
         dirPadInst[dirPadMove(start: .left, end: .up)] = [">^A"]
-//        dirPadInst[dirPadMove(start: .left, end: .push)] = [">>^A", ">^>A"]
         dirPadInst[dirPadMove(start: .left, end: .push)] = [">>^A"]
 
         dirPadInst[dirPadMove(start: .down, end: .right)] = [">A"]
         dirPadInst[dirPadMove(start: .down, end: .down)] = ["A"]
         dirPadInst[dirPadMove(start: .down, end: .left)] = ["<A"]
         dirPadInst[dirPadMove(start: .down, end: .up)] = ["^A"]
-        dirPadInst[dirPadMove(start: .down, end: .push)] = [">^A", "^>A"]
-        
+        dirPadInst[dirPadMove(start: .down, end: .push)] = ["^>A"]
+
         dirPadInst[dirPadMove(start: .right, end: .right)] = ["A"]
         dirPadInst[dirPadMove(start: .right, end: .down)] = ["<A"]
         dirPadInst[dirPadMove(start: .right, end: .left)] = ["<<A"]
-        dirPadInst[dirPadMove(start: .right, end: .up)] = ["^<A", "<^A"]
+        dirPadInst[dirPadMove(start: .right, end: .up)] = ["<^A"]
         dirPadInst[dirPadMove(start: .right, end: .push)] = ["^A"]
         
         dirPadInst[dirPadMove(start: .push, end: .right)] = ["vA"]
-        dirPadInst[dirPadMove(start: .push, end: .down)] = ["<vA", "v<A"]
-//        dirPadInst[dirPadMove(start: .push, end: .left)] = ["v<<A", "<v<A"]
+        dirPadInst[dirPadMove(start: .push, end: .down)] = ["<vA"]
         dirPadInst[dirPadMove(start: .push, end: .left)] = ["v<<A"]
         dirPadInst[dirPadMove(start: .push, end: .up)] = ["<A"]
         dirPadInst[dirPadMove(start: .push, end: .push)] = ["A"]
@@ -202,98 +263,125 @@ func Day21(file: String, part: Int) -> String {
     func fillNumPadInst() -> [numPadMove: [String]] {
         var numPadInst: [numPadMove: [String]] = [:]
         
-//        numPadInst[numPadMove(start: .push, end: .one)] = ["^<<A", "<^<A"]
+        numPadInst[numPadMove(start: .push, end: .zero)] = ["<A"]
         numPadInst[numPadMove(start: .push, end: .one)] = ["^<<A"]
-//        numPadInst[numPadMove(start: .push, end: .four)] = ["^^<<A", "^<^<A", "<^^<A", "^<<^A", "<^<^A"]
+        numPadInst[numPadMove(start: .push, end: .two)] = ["<^A"]
+        numPadInst[numPadMove(start: .push, end: .three)] = ["^A"]
         numPadInst[numPadMove(start: .push, end: .four)] = ["^^<<A"]
-//        numPadInst[numPadMove(start: .push, end: .seven)] = ["^^^<<A","^^<^<A","^<^^<A", "<^^^<A", "^^<<^A", "^<^<^A", "<^^<^A", "^<<^^A", "<^<^^A"]
+        numPadInst[numPadMove(start: .push, end: .five)] = ["<^^A"]
+        numPadInst[numPadMove(start: .push, end: .six)] = ["^^A"]
         numPadInst[numPadMove(start: .push, end: .seven)] = ["^^^<<A"]
+        numPadInst[numPadMove(start: .push, end: .eight)] = ["<^^^A"]
+        numPadInst[numPadMove(start: .push, end: .nine)] = ["^^^A"]
 
         numPadInst[numPadMove(start: .zero, end: .one)] = ["^<A"]
         numPadInst[numPadMove(start: .zero, end: .two)] = ["^A"]
-        numPadInst[numPadMove(start: .zero, end: .three)] = ["^>A",">^A"]
-//        numPadInst[numPadMove(start: .zero, end: .four)] = ["^^<A", "^<^A"]
+        numPadInst[numPadMove(start: .zero, end: .three)] = ["^>A"]
         numPadInst[numPadMove(start: .zero, end: .four)] = ["^^<A"]
         numPadInst[numPadMove(start: .zero, end: .five)] = ["^^A"]
-//        numPadInst[numPadMove(start: .zero, end: .six)] = ["^^>A",">^^A", "^>^A"]
-        numPadInst[numPadMove(start: .zero, end: .six)] = ["^^>A",">^^A"]
-//        numPadInst[numPadMove(start: .zero, end: .seven)] = ["^^^<A","^^<^A","^<^^A"]
+        numPadInst[numPadMove(start: .zero, end: .six)] = ["^^>A"]
         numPadInst[numPadMove(start: .zero, end: .seven)] = ["^^^<A"]
         numPadInst[numPadMove(start: .zero, end: .eight)] = ["^^^A"]
-//        numPadInst[numPadMove(start: .zero, end: .nine)] = ["^^^>A","^^>^A","^>^^A",">^^^A"]
-        numPadInst[numPadMove(start: .zero, end: .nine)] = ["^^^>A",">^^^A"]
+        numPadInst[numPadMove(start: .zero, end: .nine)] = ["^^^>A"]
         numPadInst[numPadMove(start: .zero, end: .push)] = [">A"]
 
         numPadInst[numPadMove(start: .one, end: .zero)] = [">vA"]
         numPadInst[numPadMove(start: .one, end: .two)] = [">A"]
         numPadInst[numPadMove(start: .one, end: .three)] = [">>A"]
         numPadInst[numPadMove(start: .one, end: .four)] = ["^A"]
-        numPadInst[numPadMove(start: .one, end: .five)] = ["^>A", ">^A"]
-//        numPadInst[numPadMove(start: .one, end: .six)] = ["^>>A", ">^>A", ">>^A"]
-        numPadInst[numPadMove(start: .one, end: .six)] = ["^>>A", ">>^A"]
+        numPadInst[numPadMove(start: .one, end: .five)] = ["^>A"]
+        numPadInst[numPadMove(start: .one, end: .six)] = ["^>>A"]
         numPadInst[numPadMove(start: .one, end: .seven)] = ["^^A"]
-//        numPadInst[numPadMove(start: .one, end: .eight)] = ["^^>A", "^>^A", ">^^A"]
-        numPadInst[numPadMove(start: .one, end: .eight)] = ["^^>A", ">^^A"]
-//        numPadInst[numPadMove(start: .one, end: .nine)] = ["^^>>A","^>^>A",">^^>A","^>>^A",">^>^A", ">>^^A"]
-        numPadInst[numPadMove(start: .one, end: .nine)] = ["^^>>A", ">>^^A"]
-//        numPadInst[numPadMove(start: .one, end: .push)] = [">>vA", ">v>A"]
+        numPadInst[numPadMove(start: .one, end: .eight)] = ["^^>A"]
+        numPadInst[numPadMove(start: .one, end: .nine)] = ["^^>>A"]
         numPadInst[numPadMove(start: .one, end: .push)] = [">>vA"]
 
+        numPadInst[numPadMove(start: .two, end: .zero)] = ["vA"]
+        numPadInst[numPadMove(start: .two, end: .one)] = ["<A"]
         numPadInst[numPadMove(start: .two, end: .three)] = [">A"]
-        numPadInst[numPadMove(start: .two, end: .four)] = ["^<A","<^A"]
+        numPadInst[numPadMove(start: .two, end: .four)] = ["<^A"]
         numPadInst[numPadMove(start: .two, end: .five)] = ["^A"]
-        numPadInst[numPadMove(start: .two, end: .six)] = ["^>A", ">^A"]
-//        numPadInst[numPadMove(start: .two, end: .seven)] = ["^^<A", "^<^A", "<^^A"]
-        numPadInst[numPadMove(start: .two, end: .seven)] = ["^^<A", "<^^A"]
+        numPadInst[numPadMove(start: .two, end: .six)] = ["^>A"]
+        numPadInst[numPadMove(start: .two, end: .seven)] = ["<^^A"]
         numPadInst[numPadMove(start: .two, end: .eight)] = ["^^A"]
-//        numPadInst[numPadMove(start: .two, end: .nine)] = ["^^>A","^>^A",">^^A"]
-        numPadInst[numPadMove(start: .two, end: .nine)] = ["^^>A",">^^A"]
-        numPadInst[numPadMove(start: .two, end: .push)] = [">vA", ">vA"]
-        
-//        numPadInst[numPadMove(start: .three, end: .four)] = ["^<<A","<^<A", "<<^A"]
-        numPadInst[numPadMove(start: .three, end: .four)] = ["^<<A", "<<^A"]
-        numPadInst[numPadMove(start: .three, end: .five)] = ["^<A", "<^A"]
+        numPadInst[numPadMove(start: .two, end: .nine)] = ["^^>A"]
+        numPadInst[numPadMove(start: .two, end: .push)] = ["v>A"]
+
+        numPadInst[numPadMove(start: .three, end: .zero)] = ["<vA"]
+        numPadInst[numPadMove(start: .three, end: .one)] = ["<<A"]
+        numPadInst[numPadMove(start: .three, end: .two)] = ["<A"]
+        numPadInst[numPadMove(start: .three, end: .four)] = ["<<^A"]
+        numPadInst[numPadMove(start: .three, end: .five)] = ["<^A"]
         numPadInst[numPadMove(start: .three, end: .six)] = ["^A"]
-//        numPadInst[numPadMove(start: .three, end: .seven)] = ["^^<<A","^<^<A","<^^<A","^<<^A","<^<^A", "<<^^A"]
-        numPadInst[numPadMove(start: .three, end: .seven)] = ["^^<<A", "<<^^A"]
-//        numPadInst[numPadMove(start: .three, end: .eight)] = ["^^<A", "^<^A", "<^^A"]
-        numPadInst[numPadMove(start: .three, end: .eight)] = ["^^<A", "<^^A"]
+        numPadInst[numPadMove(start: .three, end: .seven)] = ["<<^^A"]
+        numPadInst[numPadMove(start: .three, end: .eight)] = ["<^^A"]
         numPadInst[numPadMove(start: .three, end: .nine)] = ["^^A"]
         numPadInst[numPadMove(start: .three, end: .push)] = ["vA"]
 
         numPadInst[numPadMove(start: .four, end: .zero)] = [">vvA"]
+        numPadInst[numPadMove(start: .four, end: .one)] = ["vA"]
+        numPadInst[numPadMove(start: .four, end: .two)] = ["v>A"]
+        numPadInst[numPadMove(start: .four, end: .three)] = ["v>>A"]
         numPadInst[numPadMove(start: .four, end: .five)] = [">A"]
         numPadInst[numPadMove(start: .four, end: .six)] = [">>A"]
         numPadInst[numPadMove(start: .four, end: .seven)] = ["^A"]
-        numPadInst[numPadMove(start: .four, end: .eight)] = ["^>A", ">^A"]
-//        numPadInst[numPadMove(start: .four, end: .nine)] = ["^>>A", ">^>A", ">>^A"]
-        numPadInst[numPadMove(start: .four, end: .nine)] = ["^>>A", ">>^A"]
-//        numPadInst[numPadMove(start: .four, end: .push)] = [">>vvA", ">v>vA", "v>>vA", ">vv>A", "v>v>A"]
+        numPadInst[numPadMove(start: .four, end: .eight)] = ["^>A"]
+        numPadInst[numPadMove(start: .four, end: .nine)] = ["^>>A"]
         numPadInst[numPadMove(start: .four, end: .push)] = [">>vvA"]
 
+        numPadInst[numPadMove(start: .five, end: .zero)] = ["vvA"]
+        numPadInst[numPadMove(start: .five, end: .one)] = ["<vA"]
+        numPadInst[numPadMove(start: .five, end: .two)] = ["vA"]
+        numPadInst[numPadMove(start: .five, end: .three)] = ["v>A"]
+        numPadInst[numPadMove(start: .five, end: .four)] = ["<A"]
         numPadInst[numPadMove(start: .five, end: .six)] = [">A"]
-        numPadInst[numPadMove(start: .five, end: .seven)] = ["^<A", "<^A"]
+        numPadInst[numPadMove(start: .five, end: .seven)] = ["<^A"]
         numPadInst[numPadMove(start: .five, end: .eight)] = ["^A"]
-        numPadInst[numPadMove(start: .five, end: .nine)] = ["^>A", ">^A"]
-//        numPadInst[numPadMove(start: .five, end: .push)] = [">vvA", "v>vA", "vv>A"]
-        numPadInst[numPadMove(start: .five, end: .push)] = [">vvA", "vv>A"]
+        numPadInst[numPadMove(start: .five, end: .nine)] = ["^>A"]
+        numPadInst[numPadMove(start: .five, end: .push)] = ["vv>A"]
 
-//        numPadInst[numPadMove(start: .six, end: .seven)] = ["^<<A", "<^<A", "<<^A"]
-        numPadInst[numPadMove(start: .six, end: .seven)] = ["^<<A", "<<^A"]
-        numPadInst[numPadMove(start: .six, end: .eight)] = ["^<A", "<^A"]
+        numPadInst[numPadMove(start: .six, end: .zero)] = ["<vvA"]
+        numPadInst[numPadMove(start: .six, end: .one)] = ["<<vA"]
+        numPadInst[numPadMove(start: .six, end: .two)] = ["<vA"]
+        numPadInst[numPadMove(start: .six, end: .three)] = ["vA"]
+        numPadInst[numPadMove(start: .six, end: .four)] = ["<<A"]
+        numPadInst[numPadMove(start: .six, end: .five)] = ["<A"]
+        numPadInst[numPadMove(start: .six, end: .seven)] = ["<<^A"]
+        numPadInst[numPadMove(start: .six, end: .eight)] = ["<^A"]
         numPadInst[numPadMove(start: .six, end: .nine)] = ["^A"]
         numPadInst[numPadMove(start: .six, end: .push)] = ["vvA"]
 
         numPadInst[numPadMove(start: .seven, end: .zero)] = [">vvvA"]
+        numPadInst[numPadMove(start: .seven, end: .one)] = ["vvA"]
+        numPadInst[numPadMove(start: .seven, end: .two)] = ["vv>A"]
+        numPadInst[numPadMove(start: .seven, end: .three)] = ["vv>>A"]
+        numPadInst[numPadMove(start: .seven, end: .four)] = ["vA"]
+        numPadInst[numPadMove(start: .seven, end: .five)] = ["v>A"]
+        numPadInst[numPadMove(start: .seven, end: .six)] = ["v>>A"]
         numPadInst[numPadMove(start: .seven, end: .eight)] = [">A"]
         numPadInst[numPadMove(start: .seven, end: .nine)] = [">>A"]
-//        numPadInst[numPadMove(start: .seven, end: .push)] = [">>vvvA", ">v>vvA", ">vv>vA", ">vvv>A", "v>>vvA", "v>v>vA", "v>vv>A", "vv>>vA", "vv>v>A"]
         numPadInst[numPadMove(start: .seven, end: .push)] = [">>vvvA"]
 
+        numPadInst[numPadMove(start: .eight, end: .zero)] = ["vvvA"]
+        numPadInst[numPadMove(start: .eight, end: .one)] = ["<vvA"]
+        numPadInst[numPadMove(start: .eight, end: .two)] = ["vvA"]
+        numPadInst[numPadMove(start: .eight, end: .three)] = ["vv>A"]
+        numPadInst[numPadMove(start: .eight, end: .four)] = ["<vA"]
+        numPadInst[numPadMove(start: .eight, end: .five)] = ["vA"]
+        numPadInst[numPadMove(start: .eight, end: .six)] = ["v>A"]
+        numPadInst[numPadMove(start: .eight, end: .seven)] = ["<A"]
         numPadInst[numPadMove(start: .eight, end: .nine)] = [">A"]
-//        numPadInst[numPadMove(start: .eight, end: .push)] = [">vvvA", "v>vvA", "vv>vA", "vvv>A"]
-        numPadInst[numPadMove(start: .eight, end: .push)] = [">vvvA", "vvv>A"]
+        numPadInst[numPadMove(start: .eight, end: .push)] = ["vvv>A"]
 
+        numPadInst[numPadMove(start: .nine, end: .zero)] = ["<vvvA"]
+        numPadInst[numPadMove(start: .nine, end: .one)] = ["<<vvA"]
+        numPadInst[numPadMove(start: .nine, end: .two)] = ["<vvA"]
+        numPadInst[numPadMove(start: .nine, end: .three)] = ["vvA"]
+        numPadInst[numPadMove(start: .nine, end: .four)] = ["<<vA"]
+        numPadInst[numPadMove(start: .nine, end: .five)] = ["<vA"]
+        numPadInst[numPadMove(start: .nine, end: .six)] = ["vA"]
+        numPadInst[numPadMove(start: .nine, end: .seven)] = ["<<A"]
+        numPadInst[numPadMove(start: .nine, end: .eight)] = ["<A"]
         numPadInst[numPadMove(start: .nine, end: .push)] = ["vvvA"]
 
         for i in NumPad.allCases {
@@ -302,6 +390,7 @@ func Day21(file: String, part: Int) -> String {
                     if i == j {
                         numPadInst[numPadMove(start: i, end: j)] = ["A"]
                     } else {
+                        print("WHY?????????????? \(i) \(j)")
                         let dirsToReverse = numPadInst[numPadMove(start: j, end: i)]!
                         var reversedDirs: [String] = []
                         for dir in dirsToReverse {
